@@ -22,7 +22,7 @@ def new_food(head):
 # 绘制，在窗体中绘制贪吃蛇、食物
 # color:颜色，position: 坐标
 def rect(color, position):
-    pygame.draw.circle(WINDOWSHOWN, color, (position.x, position.y), 10)
+    pygame.draw.circle(window, color, (position.x, position.y), 10)
 # 初始界面和游戏中点差退出游戏时
 def exit_end():
     pygame.quit()
